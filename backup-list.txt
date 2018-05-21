@@ -1,0 +1,18 @@
+# this is a globbing file list
+# duplicity accepts some globbing patterns, even including ones here
+# here is an example, this incl. only 'dir/bar' except it's subfolder 'foo'
+# - dir/bar/foo
+# + dir/bar
+# - **
+# for more details see duplicity manpage, section File Selection
+# http://duplicity.nongnu.org/duplicity.1.html#sect9
+# example of folders added 
+
+- /var/www/sites/site10/node_modules/
+- /var/www/sites/site10/vendor/
++ /var/www/sites/site10/
++ /var/www/sites/site11/
++ /var/www/sites/site14/
++ /var/www/sites/site7/
++ /var/www/sites/site8/
++ /var/www/sites/site9/
